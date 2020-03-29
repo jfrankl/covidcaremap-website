@@ -1,0 +1,28 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html data-current="{{ page.section }}" lang="en">
+  {% include head.html %}
+  <body>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center" style="margin-top: 20vh">
+            <h4>
+              Redirecting you to Stripe for checkout.
+            </h4>
+            <p>
+              Not working after 3 seconds?
+              <a href="javascript:;" onclick="goToStripe()">Try again</a> or
+              contact us at <a href="{{site.contactemail}}">{{site.email}}</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="https://js.stripe.com/v3"></script>
+    <script src="/assets/js/checkout-regular.js"></script>
+  </body>
+</html>

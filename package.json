@@ -1,0 +1,25 @@
+{
+  "name": "rickkrajewski-website",
+  "version": "1.0.0",
+  "description": "*Note: Check out my [Eleventy Netlify Boilerplate](https://github.com/danurbanowicz/eleventy-netlify-boilerplate). It does pretty much the same as this project but uses the [Eleventy](https://www.11ty.io/) static site generator. It's fast, flexible and doesn't require Ruby.*",
+  "main": "index.js",
+  "dependencies": {
+    "netlify-lambda": "^1.6.3",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/rickkrajewski/rickkrajewski-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/rickkrajewski/rickkrajewski-website/issues"
+  },
+  "homepage": "https://gitlab.com/rickkrajewski/rickkrajewski-website#readme"
+}

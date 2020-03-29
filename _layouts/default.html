@@ -1,0 +1,17 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html data-current="{{ page.section }}" lang="en">
+  {% include head.html %}
+  <body>
+    <main>
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </body>
+  {% if page.layout == 'home' %}
+  <script defer src="/assets/js/home.js"></script>
+  {% endif %}
+</html>

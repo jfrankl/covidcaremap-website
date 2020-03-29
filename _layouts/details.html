@@ -1,0 +1,119 @@
+---
+layout: default
+---
+
+<section class="section-pricing-intro">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div id="error-message"></div>
+				<div class="start-container">
+					<h1>Campaign details</h1>
+					<p class="large">
+						We’re so excited that you want to work with us! Please tell us a
+						little more about your campaign so we can get started on your custom
+						district map.
+					</p>
+				</div>
+				<hr />
+				<div class="start-card">
+					<form
+						name="signup"
+						class="campaign-form"
+						action="/checkout"
+						netlify
+						id="signup"
+					>
+						<div class="row">
+							<div class="col-sm-12">
+								<h3>The candidate</h3>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="form-section">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" />
+								</div>
+							</div>
+							<div class="col-sm-12">
+								<div class="form-section">
+									<label for="name">Political party</label>
+									<input type="text" name="name" id="name" />
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="form-section">
+									<label for="state">State</label>
+									<input required type="text" name="state" id="state" />
+									<input required type="hidden" name="type" id="type" />
+								</div>
+							</div>
+
+							<div class="col-sm-12">
+								<div class="form-section">
+									<label for="district">District</label>
+									<div
+										style="opacity: 0.6; font-size: 14px; margin: -5px 0 6px;"
+									>
+										Example: 188th State House District
+									</div>
+									<input required type="text" name="district" id="district" />
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12">
+								<h3>Contact person</h3>
+							</div>
+							<div class="col-sm-12">
+								<div class="form-section">
+									<label for="contact">Contact name</label>
+									<input required type="text" name="contact" id="contact" />
+								</div>
+							</div>
+							<div class="col-sm-12">
+								<div class="form-section">
+									<label for="email">Contact email</label>
+									<input required type="email" name="email" id="email" />
+								</div>
+							</div>
+						</div>
+						<div class="row" id="promo-one">
+							<div class="col-sm-12">
+								<a href="javascript:;" id="open-promo">Have a promo code?</a>
+							</div>
+						</div>
+						<div class="row" id="promo-two" style="display: none">
+							<div class="col-sm-12">
+								<div class="form-section">
+									<h3>Discount</h3>
+									<label for="contact">Enter promo code</label>
+									<input type="text" name="promo" id="promo" />
+									<button type="button" class="basic" id="apply">
+										Apply code
+									</button>
+								</div>
+							</div>
+							<div class="col-sm-12">
+								<p id="message"></p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="form-section">
+									<button type="submit" style="margin-top: 2rem">
+										Set up payment →
+									</button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<script src="/assets/js/promo.js"></script>
