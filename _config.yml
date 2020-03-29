@@ -13,14 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MapBlue – The custom district map for your campaign website
-email: contact@mapblue.org
+title: COVIDCareMap – Open geospatial work to support health systems' capacity to effectively care for rapidly growing COVID19 patient needs
+email: dave@covidcaremap.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Political districts are confusing. Show your voters where you’re running with an interactive map that’s easy to add to your website and share on social media.
+  Open geospatial work to support health systems' capacity to effectively care for rapidly growing COVID19 patient needs
 baseurl: "" # the subpath of your site if applicable, e.g. /blog
-url: "https://mapblue.org" # the base hostname & protocol for your site, e.g. https://example.com
-contactemail: mailto:contact@mapblue.org
-monthly-price: $7
+url: "https://covidcaremap.org" # the base hostname & protocol for your site, e.g. https://example.com
 
 plugins:
   - jekyll-sitemap

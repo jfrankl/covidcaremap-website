@@ -1,5 +1,5 @@
 {
-  "name": "rickkrajewski-website",
+  "name": "covidcaremap-website",
   "version": "1.0.0",
   "description": "*Note: Check out my [Eleventy Netlify Boilerplate](https://github.com/danurbanowicz/eleventy-netlify-boilerplate). It does pretty much the same as this project but uses the [Eleventy](https://www.11ty.io/) static site generator. It's fast, flexible and doesn't require Ruby.*",
   "main": "index.js",
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/rickkrajewski/rickkrajewski-website.git"
+    "url": "git+ssh://git@gitlab.com/covidcaremap/covidcaremap-website.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/rickkrajewski/rickkrajewski-website/issues"
+    "url": "https://gitlab.com/covidcaremap/covidcaremap-website/issues"
   },
-  "homepage": "https://gitlab.com/rickkrajewski/rickkrajewski-website#readme"
+  "homepage": "https://gitlab.com/covidcaremap/covidcaremap-website#readme"
 }
