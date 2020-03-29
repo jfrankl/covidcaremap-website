@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-title: "MapBlue: The custom district map for your campaign website"
+title: "COVIDCareMap"
 heading: Visualizing & processing healthcare capacity data for decision makers
 intro: We are a team of volunteer data analysts and software developers who are [lorem ipsum lorem ipsum]. If you [meet these conditions], we can help you [with a specific kind of task].
 cta-label: Request data support
