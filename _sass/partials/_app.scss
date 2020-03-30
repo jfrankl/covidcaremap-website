@@ -131,11 +131,6 @@ hr {
     width: 980px;
   }
 }
-@media (min-width: 1200px) {
-  .container {
-    width: 1140px;
-  }
-}
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
@@ -1193,7 +1188,7 @@ h1,
 .h1,
 .text-h1 {
   font-size: $font-size-h1;
-  font-weight: 300;
+  font-weight: 400;
   @media (max-width: 767px) {
     font-size: $font-size-h2;
   }
@@ -1232,6 +1227,11 @@ h5,
   margin-bottom: 1rem;
 }
 
+h1,
+h2 {
+  font-weight: 400;
+}
+
 .map-view #map-sidebar {
   display: none;
 }
@@ -1241,6 +1241,9 @@ h5,
   display: inline-block;
   height: 450px;
   position: relative;
+  @media (min-width: 1200px) {
+    height: 500px;
+  }
 
   img {
     transform: scale(1.4);
@@ -1302,6 +1305,7 @@ p {
 
 button,
 .button {
+  text-transform: uppercase;
   display: inline-block;
   padding: 8px 26px;
   background: $color-primary;
