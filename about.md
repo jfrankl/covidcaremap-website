@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About | COVIDCareMap
+title: About | CovidCareMap
 heading: About
 permalink: /about
 ---

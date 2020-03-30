@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-title: COVIDCareMap – Open geospatial work to support health systems' capacity to effectively care for rapidly growing COVID19 patient needs
+title: CovidCareMap – Open geospatial work to support health systems' capacity to effectively care for rapidly growing COVID19 patient needs
 heading: Visualizing & processing healthcare capacity data for decision makers
 intro: We are a team of volunteer data analysts and software developers who are [lorem ipsum lorem ipsum]. If you [meet these conditions], we can help you [with a specific kind of task].
 cta-label: Request data support
